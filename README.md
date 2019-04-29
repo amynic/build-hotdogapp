@@ -50,14 +50,93 @@ The select the **Create resource** button
 6. Once complete, you will return to the **Create new project** window and more options will appear. Select the details below:
 * Project Types: Classification
 * Classification Types: Multiclass (single tag per image)
-* Domains: Food
+* Domains: General
 
 Then select the **Create project** button
 
 ![Create Project complete](instructions/select-settings.JPG "Create Project complete")
 
+7. You will now see a blank project workspace as shown below. This is where we will create our Hot Dog or Not Hot Dog classifier.
 
+![Blank Workspace page](instructions/blank-workspace.JPG "Blank Workspace page")
 
+8. Lets start to create our classifier by uploading some images for the machine to learn from.
+
+Click the **add images** button in the top left
+
+![Add Images](instructions/add-images.JPG "Add Images")
+
+> On the workshop device the images are already provided. Please find these images in the My Documents Folder and confirm they are there.
+
+> There is a folder containing 3 other folders:
+* **hotdog:** this is a folder of 20 different images of hot dogs
+* **nothotdog:** this is a folder of 20 different images of pizzas, hamburgers and spaghetti
+* **test:** this is a folder of 13 images of hot dogs, pizza, hamburgers and spaghetti
+
+Select the **hotdog** folder and select all the images in this folder. 
+
+> Select all: Select the first image in the folder and hold CTRL + SHIFT and select the last image in the folder. All images should now be highlighted
+
+Once all images are selected choose **open**
+
+![Select Hot Dogs](instructions/select-hotdogs.JPG "Select Hot Dogs")
+
+9. Now we need to let the computer know what is in these images. So add the tag **Hot Dog** in the bottom box and  select **Upload 20 files**
+
+![Upload Hot Dogs](instructions/hot-dog-image-upload.JPG "Upload Hot Dogs")
+
+The uploading will take a couple of minutes. Wait for the progress bar to complete
+
+![Uploading in Progress](instructions/images-uploading.JPG "Uploading in Progress")
+
+![Successful Upload](instructions/successful-upload.JPG "Successful Upload")
+
+10. You should now see your Hot Dog images added to your workspace. Also note on the left of the screen you have a category called **hot dog** and the number of images uploaded (20)
+
+![Hot Dogs available](instructions/hot-dogs-added.JPG "Hot Dogs available")
+
+11. Now we will repeat this process but for our **Not Hot Dog** category. 
+
+* Select Add images in the top left.
+* Locate the **nothotdog** folder
+* Select all 20 images in this folder (Hint: CTRL + SHIFT + select)
+* Choose open
+
+You will see your **not hot dog** images and now add the tag **not hot dog** and select upload
+
+![Not Hot Dogs added](instructions/not-hot-dog-add-images.JPG "Not Hot Dogs added")
+
+12. Now you will see both categories of images are uploaded
+
+![All images uploaded](instructions/all-categories-uploaded.JPG "All images uploaded")
+
+13. Lets teach the computer. Click the green **Train** button.
+
+![Train the computer](instructions/toolbar.JPG "Train the computer")
+
+14. Within a couple of minutes you will be taken to the training performance page. Here you can review how effective the computer is at understanding whether there is a hot dog in the image.
+
+![Training Performance](instructions/training-preformance.JPG "Training Performance")
+
+The closer to 100% on the metrics, means the classifier is very effective. At 87% this is very impressive after only uploading 40 images in total.
+
+15. Ok, lets test the classifier using our own images. Choose the **Quick Test** button (hint: next to the train button)
+
+![Quick Test Button](instructions/quick-test.JPG "Quick Test Button")
+
+16. On the **Quick Test** page. Select the **Browse local files** button and navigate to the **test** folder of images you have not uploaded to the system.
+
+Select an image of a hot dog and click open
+
+The image will be uploaded and evaluated and results will be returned. Under the **Predictions** section. The category with the probability closest to 100% is the category the computer thinks is correct for this image.
+
+**For example below:** the computer thinks this is a hot dog and its correct!
+
+![Quick Test Hot Dog](instructions/test-hot-dog.JPG "Quick Test Hot Dog")
+
+17. This time select **Browse local files** and pick a test image which is not a hot dog. What does the computer say is the correct category?
+
+![Quick Test Not Hot Dog](instructions/test-not-hotdog.JPG "Quick Test Not Hot Dog")
 
 
 
