@@ -18,6 +18,7 @@ On the **'Stay signed in?'** page select **No**
 > You will encounter a **permissions window**. This is making sure that you are happy for the Custom Vision website to access your Azure subscription. We will use this access to create a machine learning project instance.
 
 > When you see this pop up please accept **Yes**
+
 ![Permissions Requested pop up](instructions/permission-requested.JPG "Permissions Requested pop up")
 
 Then finally please accept the terms of service. Check the box and click the **I Agree** button
