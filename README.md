@@ -138,5 +138,13 @@ The image will be uploaded and evaluated and results will be returned. Under the
 
 ![Quick Test Not Hot Dog](instructions/test-not-hotdog.JPG "Quick Test Not Hot Dog")
 
+## Congratulations!!
+
+You have built your own Hot Dog or Not Hot Dog machine learning classifier in 30 mins.
+
+If you wish to continue building your machine learning algorithm into an application after the workshop
+
+### Check out next steps and further instructions here: [NextSteps.md](https://github.com/amynic/build-hotdogapp/blob/master/NextSteps.md) 
+
 
 
