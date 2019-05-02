@@ -5,9 +5,13 @@ This Github repository is instructions for the instructor led Student Lab at Mic
 * **Session Title:** Build the popular ‘Hot Dog’ or ‘Not Hot Dog’ app in 30 mins using Machine Learning
 * **Session Abstract:** Have you watched the hilarious clip from Silicon Valley when the team created a camera app that recognizes ‘hot dogs’ and ‘not hot dogs’? Want to know how you can build something similar in just 30 mins and explain to your friends how it works? Come along to this interactive session where you will learn how machine learning can power an application to recognize objects in a picture. Finally, turn your project into a live web app after the session with step-by-step instructions online.
 
+## Pre-requisities:
+* An Azure subscription, sign up for free here: [https://azure.microsoft.com/en-us/free/](https://azure.microsoft.com/en-us/free/?WT.mc_id=build2019-event-amynic)
+* A modern web browser
+
 ## So lets build a Hot Dog, Not Hot Dog classification application ...
 
-1. Please visit the website: [https://www.customvision.ai/](https://www.customvision.ai/). This is a website where we can build a machine learning classifier using no code.
+1. Please visit the website: [https://www.customvision.ai/](https://www.customvision.ai/?WT.mc_id=build2019-event-amynic). This is a website where we can build a machine learning classifier using no code.
 
 ![Custom Vision Website](instructions/customvision.JPG "Custom Vision Website")
 
