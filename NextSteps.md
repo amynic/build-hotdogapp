@@ -96,6 +96,14 @@ The response should tell you which class it thinks the image is and also the con
 
 ![Output](instructions/evaluation.JPG)
 
+## Hosting your web application in the cloud
+
+Learn how to host and improve your web application on Microsoft Azure
+
+Below are some amazing [Microsoft Learn](https://docs.microsoft.com/en-us/learn/) course that will give you more information on hosting and deploying web applications:
+* [Deploy a website to Azure with Azure App Service](https://docs.microsoft.com/en-us/learn/paths/deploy-a-website-with-azure-app-service/)
+* [Publish a web app to Azure with Visual Studio](https://docs.microsoft.com/en-us/learn/modules/publish-azure-web-app-with-visual-studio/)
+* [Develop web applications with Visual Studio Code](https://docs.microsoft.com/en-us/learn/modules/develop-web-apps-with-vs-code/)
 
 
 
